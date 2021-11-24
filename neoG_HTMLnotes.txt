@@ -1,0 +1,19 @@
+HTML & CSS notes
+
+1. Semantic and non-semantic tags 
+    Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+    Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its     content.
+
+2. <small></small>   Smaller text than paragraph text
+
+3. Accessibility tree
+
+4. Container tags
+
+5. Inline list is like adding items in 1 row itself but that can't be done using only HTML    so CSS will be used in this regard.
+
+6. The <nav> element: When screen reader is screen reading it,  these links are important to    traverse inside the website.
+
+7. 
+	
