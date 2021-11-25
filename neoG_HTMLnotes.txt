@@ -26,5 +26,11 @@ HTML & CSS notes
    <!-- CSS Way 2: Style Attribute style="color: red"  -->
 
    <!-- CSS Way 3: Importing a separate css stylesheet -->
+
+8. CSS unit: "rem"
+	      Everything is related to font size, normal font size is 16px. So upon zooming 	      in out in browser, "rem" keeps the font relative sized.
+
+9. <span> tag 
+	used to color a part of the text or change font type to bold or italics...									
 	
 	

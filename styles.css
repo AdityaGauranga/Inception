@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #86BA10;
+    --gray: #9CA3AF;
 }
 body {
     font-family: 'M PLUS 1 Code', sans-serif;
@@ -75,4 +76,25 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+/** header **/
+
+.avatar {
+    padding: 2rem; 
+}
+
+.avatar .avatar-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.avatar .avatar-heading {
+    color: var(--gray);
+    padding-top: 1rem;
+}
+
+.avatar .avatar-heading .heading-inverted {
+    color: var(--primary-color);
 }
