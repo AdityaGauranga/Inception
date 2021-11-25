@@ -8,6 +8,8 @@
 
 body {
     font-family: 'M PLUS 1 Code', sans-serif;
+    margin: 0px;
+    /* overwriting from user stylesheet */
 }
 
 hr {
@@ -61,7 +63,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -93,8 +95,10 @@ hr {
 }
 
 .avatar .avatar-heading {
+    text-align: center;
     color: var(--gray);
     padding-top: 1rem;
+    
 }
 
 .avatar .avatar-heading .heading-inverted {
@@ -122,7 +126,7 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .links {
