@@ -52,12 +52,13 @@ hr {
     padding: 0rem 0.5rem;  
 }
 
-/* navigation */
+/** navigation **/
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -70,4 +71,8 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
