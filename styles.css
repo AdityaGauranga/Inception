@@ -7,6 +7,10 @@ body {
     font-family: 'M PLUS 1 Code', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -35,7 +39,5 @@ body {
 .secondarylink {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    
-    
+    border: 1px solid var(--primary-color);    
 }
