@@ -15,5 +15,16 @@ HTML & CSS notes
 
 6. The <nav> element: When screen reader is screen reading it,  these links are important to    traverse inside the website.
 
-7. 
+7. <!--CSS Way 1: Style tag
+        
+    <style>
+        body {
+            color: red;
+        }
+    </style> -->
+
+   <!-- CSS Way 2: Style Attribute style="color: red"  -->
+
+   <!-- CSS Way 3: Importing a separate css stylesheet -->
+	
 	
