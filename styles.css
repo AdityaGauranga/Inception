@@ -112,6 +112,7 @@ hr {
 
 .section {
     padding: 2rem;
+    border-radius: 1rem;
 }
 
 .section h1 {
@@ -120,6 +121,7 @@ hr {
 
 .off-default {
     background-color: var(--off-default);
+    padding-top: 0rem;
 }
 
 /** footers **/
