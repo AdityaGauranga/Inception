@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --primary-color: #86BA10;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     /* overwriting from user stylesheet */
 }
