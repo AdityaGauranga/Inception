@@ -32,5 +32,24 @@ HTML & CSS notes
 
 9. <span> tag 
 	used to color a part of the text or change font type to bold or italics...									
-	
-	
+10. <script> tag used for writing js in html file
+
+11. Talking to browsers
+	document.querySelector
+
+12. working of querySelector internally
+	As the name implies, query selector, it first selects the query and then basically 	sends it to the document i.e browser
+
+13. Meaning of an API
+	Application Programming Interface: Talking to an application via programming.
+	Example: (a) document.querySelector is an API used to talk to document of the browser
+		 (b) addEventListener is an API used to add an event to an HTML element
+
+14. placeholder attribute will display light text inside a <textarea> tag for users to understand what to write inside it.
+
+15. To test if the input in console.log is being read or not in the browser, inspect console and store the desired input element as a global variable and type
+	temp1.value
+and it will show whatever you typed. Its like a verification.
+
+16. 
+		
