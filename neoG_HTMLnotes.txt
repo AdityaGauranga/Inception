@@ -51,5 +51,14 @@ HTML & CSS notes
 	temp1.value
 and it will show whatever you typed. Its like a verification.
 
-16. 
+16. React.js notes
+	OnClick takes a function so we need to define a function always
+
+17. None of the functions in javascript can return 2 values, so what it does? 
+	It returns an array. If you want to return more than 1 value, there are 2 ways:
+							i. return an object (OR)
+						       ii. return an array
+
+
+18. 
 		
