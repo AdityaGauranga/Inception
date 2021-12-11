@@ -4,6 +4,7 @@
     --primary-color: #86BA10;
     --gray: #9CA3AF;
     --off-default: #EDECA9;
+    box-sizing: border-box;
 }
 
 body {
@@ -112,7 +113,7 @@ hr {
 
 .section {
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .section h1 {
@@ -121,7 +122,13 @@ hr {
 
 .off-default {
     background-color: var(--off-default);
-    padding-top: 0rem;
+    padding-top: 2rem;
+}
+
+.container-center {}
+
+.blogs-h2-heading {
+    text-align: center;
 }
 
 /** footers **/
