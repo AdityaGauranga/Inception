@@ -153,10 +153,10 @@ hr {
     /* overwriting the user agent stylesheet from inspecting the footer element */
 }
 
-.font {
+.font-h2-projectsnblogs {
     font-family: 'Outfit', sans-serif;
 }
 
-.fa-instagram {
+.socialmediaicon-size {
     font-size: 2rem;
 }
