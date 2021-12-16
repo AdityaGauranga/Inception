@@ -18,14 +18,6 @@ hr {
     margin: 2rem 0rem;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 /** container **/
 .container {
@@ -39,11 +31,7 @@ hr {
     margin: auto;
 }
 
-.btn-container {
-    height: 1px;
-    position: relative;
-    padding: 1rem;
-}
+
 /** links **/
 .links {
     box-sizing: border-box;
@@ -66,9 +54,6 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
-.blog-link {
-    text-decoration: none;
-}
 
 
 /* lists */
@@ -150,9 +135,6 @@ hr {
     padding-top: 2rem;
 }
 
-.blogs-h2-heading {
-    text-align: center;
-}
 
 /** footers **/
 
@@ -177,6 +159,72 @@ hr {
     /* overwriting the user agent stylesheet from inspecting the footer element */
 }
 
+/* BLOG STYLINGS HERE */
+
+.center {
+    margin: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: var(--off-default);
+    border: 2px solid #B9BA54;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 0.8rem;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Poppins;
+    margin: 2px 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #B9BA54;
+    transition: 0.6s;
+}
+
+.whitebtn {
+    border: 2px solid #B9BA54;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 0.8rem;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Poppins;
+    margin: 2px 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.whitebtn:hover {
+    background-color: #B9BA54;
+    transition: 0.6s;
+}
+
+.btn-container {
+    height: 1px;
+    position: relative;
+    padding: 1rem;
+}
+
+.blogs-h2-heading {
+    text-align: center;
+}
+
+.blog-section {
+    
+}
+
 /* other */
 
 .font-h2-projectsnblogs {
@@ -191,31 +239,3 @@ hr {
     text-align: center;
 }
 
-/* blog buttons */
-
-.button {
-    background-color: var(--off-default);
-    border: 2px solid #B9BA54;
-    padding: 0.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    border-radius: 0.8rem;
-    display: inline-block;
-    font-size: 16px;
-    font-family: Poppins;
-    margin: 2px 4px;
-    cursor: pointer;
-}
-
-.whitebtn {
-    border: 2px solid #B9BA54;
-    padding: 0.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    border-radius: 0.8rem;
-    display: inline-block;
-    font-size: 16px;
-    font-family: Poppins;
-    margin: 2px 4px;
-    cursor: pointer;
-}
