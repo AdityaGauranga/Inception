@@ -222,7 +222,8 @@ hr {
 }
 
 .blog-section {
-    
+    max-width: 750px;
+    margin: auto;
 }
 
 /* other */
