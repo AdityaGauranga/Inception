@@ -106,6 +106,11 @@ hr {
     
 }
 
+.avatar .blog-heading {
+    text-align: center;
+    color: var(--gray);
+}
+
 .avatar .avatar-heading .heading-inverted {
     color: var(--primary-color);
 }
@@ -152,6 +157,8 @@ hr {
     padding-inline-start: 0px;
     /* overwriting the user agent stylesheet from inspecting the footer element */
 }
+
+/* other */
 
 .font-h2-projectsnblogs {
     font-family: 'Outfit', sans-serif;
