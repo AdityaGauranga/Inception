@@ -11,7 +11,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    /* overwriting from user stylesheet */
+    /* overwriting from user agent stylesheet */
 }
 
 hr {
@@ -50,6 +50,16 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.blog-link {
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+.blog-1stlink {
+    /* background-color: var(--primary-color); */
 }
 
 /* lists */
@@ -166,4 +176,8 @@ hr {
 
 .socialmediaicon-size {
     font-size: 2rem;
+}
+
+.blog-brieftext {
+    text-align: center;
 }
